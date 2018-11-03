@@ -1,6 +1,13 @@
 # Passport-HTTP
 
-HTTP Basic and Digest authentication strategies for [Passport](https://github.com/jaredhanson/passport).
+[![NPM version](https://img.shields.io/npm/v/@passport-next/passport-http.svg)](https://www.npmjs.com/package/@passport-next/passport-http)
+[![Build Status](https://travis-ci.org/passport-next/passport-http.svg?branch=master)](https://travis-ci.org/passport-next/passport-http)
+[![Coverage Status](https://coveralls.io/repos/github/passport-next/passport-http/badge.svg?branch=master)](https://coveralls.io/github/passport-next/passport-http?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a5614edd33ca5e08e641/maintainability)](https://codeclimate.com/github/passport-next/passport-http/maintainability)
+[![Dependencies](https://david-dm.org/passport-next/passport-http.png)](https://david-dm.org/passport-next/passport-http)
+<!--[![SAST](https://gitlab.com/passport-next/passport-http/badges/master/build.svg)](https://gitlab.com/passport-next/passport-http/badges/master/build.svg)-->
+
+HTTP Basic and Digest authentication strategies for [Passport](https://github.com/passport-next/passport).
 
 This module lets you authenticate HTTP requests using the standard basic and
 digest schemes in your Node.js applications.  By plugging into Passport, support
@@ -8,16 +15,9 @@ for these schemes can be easily and unobtrusively integrated into any
 application or framework that supports [Connect](http://www.senchalabs.org/connect/)-style
 middleware, including [Express](http://expressjs.com/).
 
----
-
-<p align="center"><a href="http://www.tkqlhce.com/click-8907558-13433666" target="_top">1Password, the only password manager you should trust.</a> Industry-leading security and award winning design.</p>
-
----
-
-
 ## Install
 
-    $ npm install passport-http
+    $ npm install @passport-next/passport-http
 
 ## Usage of HTTP Basic
 
@@ -103,16 +103,3 @@ application:
 #### Examples
 
 For a complete, working example, refer to the [Digest example](https://github.com/passport/express-3.x-http-digest-example).
-
-## Sponsorship
-
-Passport is open source software.  Ongoing development is made possible by
-generous contributions from [individuals and corporations](https://github.com/jaredhanson/passport/blob/master/SPONSORS.md).
-To learn more about how you can help keep this project financially sustainable,
-please visit Jared Hanson's page on [Patreon](https://www.patreon.com/jaredhanson).
-
-## License
-
-[The MIT License](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2011-2013 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
